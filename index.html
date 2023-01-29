@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./dist/main.css" rel="stylesheet" />
+    </head>
+<body>
+    <div class="weather-widget">
+        <div class="form-group">
+            <input type="text" name="search" class="search-box" placeholder="Search for a city..." autocomplete="off">
+        </div>
+        <div class="weather-result" id="weather-result">
+            <div class="city" id="city"></div>
+            <div class="date" id="date"></div>
+            <div class="temperature" id="temperature"><span class="temp" id="temp"></span><sup class="degree">&deg;</sup>c</div>
+            <div class="desc" id="desc"></div>
+            <div class="temperatureDesc" id="temperatureDesc">
+                <span class="mintemp" id="mintemp"></span><sup>&deg;</sup>c / <span class="maxtemp" id="maxtemp"></span><sup>&deg;</sup>c
+            </div>
+        </div>
+    </div>    
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
